@@ -1,0 +1,35 @@
+#customer-dashboard{
+    background-color: #eee;
+}
+#customer-dashboard{
+    height:100%;
+}
+#customer-dashboard Button{
+    width: 30%;
+    background-color: #152036;
+    border: none;
+}
+#SideProfileImg{
+    width: 100px;
+    border: 2px solid #3F51B5;
+    border-radius: 100%;
+    margin-top: -15%;
+    margin-left: 25%;
+    height:100px;
+}
+.customerlogoutIcon{
+    margin-left:70%;
+    cursor: pointer;
+}
+.CustomerappBarHeading{
+    color:white;
+}
+@media only screen and (max-width: 768px){
+    .customerlogoutIcon{
+        margin-left:40%;
+        font-size:1em;
+    }
+    .CustomerappBarHeading{
+        font-size:1.4em;
+    }
+}

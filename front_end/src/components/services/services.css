@@ -1,0 +1,139 @@
+#servicesComponent .service-nav-bankground{
+    /* background-image: url('../../images/serviceHeader.jfif'); */
+    height: 450px;
+    width: 100%;
+  background-position: 0% 0%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* position: relative; */
+}
+#servicesComponent .service-header-heading{
+    padding-top: -50%;
+    padding-left: 30%;
+    color: rgb(15, 15, 15);
+    font-size: 2em;
+    font-weight:900;
+}
+#servicesComponent .service-header-text{
+    padding-left: 26%;
+    color: white;
+    font-size: 1.4em;
+    font-weight:900;
+}
+#servicesComponent .service-section{
+    /* position:relative; */
+    /* transform: translateY(-4rem); */
+    /* margin-bottom: -50%; */
+    background-color:white;
+}
+#servicesComponent  .hiring-service-heading{
+    font-size: 2em;
+    font-weight:400;
+    text-align: center;
+}
+#servicesComponent  .hiring-service-para{
+    font-size: 1em;
+    font-weight:400;
+    text-align: justify;
+}
+#servicesComponent .handyman-service{
+    background-image: url('../../images/carPainterHeader.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:-310px,20%;
+}
+#servicesComponent .CarService{
+    background-image: url('../../images/construcitonHeader.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:390px 150px;
+}
+#servicesComponent .eventService{
+    background-image: url('../../images/electricianHeaderImage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position: -200px -130px;
+    /* background-position:90% 20%; */
+}
+#servicesComponent .constructionService{
+    background-image: url('../../images/homeCleaning.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:240px 20px;
+}
+#servicesComponent .homeCare{
+    background-image: url('../../images/hvacheaders.png');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:-150px 35px;
+    background-size: contain;
+    display: block;
+}
+#servicesComponent .personalService{
+    background-image: url('../../images/painterheader.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:-300px 20px;
+}
+#servicesComponent .businessService{
+    background-image: url('../../images/pumberHeader.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 46em;
+    background-position:100% 100%;
+}
+#servicesComponent .serviceHeading{
+    color: white;
+    font-size: 2.4em;
+    font-weight: 500;
+    text-align: center;
+}
+#servicesComponent .serviceSubHeading{
+    color:white;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1em;
+}
+#servicesComponent .serviceMainPara{
+    color:grey;
+    font-size: 1em;
+    text-align: center;
+    text-align: rgba(255,255,255,.8);
+}
+#servicesComponent .service-info-col{
+    background-color: #38363d;
+    flex-flow: row;
+}
+#servicesComponent .main-services-card{
+    height: 9em;
+}
+#servicesComponent .main-services-card-body{
+    text-align: justify;
+}
+#servicesComponent .main-services-card-img{
+    height: 9em;
+}
+#servicesComponent .service-back{
+    background-color: #38363d
+}
+.servicebookbtn{
+    width: 30%;
+    margin-left: 70%;
+    background-color: #152036;
+    border: none;
+}
+.servicebookbtn:hover{
+    background-color: #152036;
+}
+#servicesComponent Button{
+    width: 100%;
+    background-color: #152036;
+    border: none;
+}

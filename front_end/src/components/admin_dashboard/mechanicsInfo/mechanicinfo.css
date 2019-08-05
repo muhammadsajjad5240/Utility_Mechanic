@@ -1,0 +1,93 @@
+#mechanicInfo{
+    background-color:#eee;
+    height:100%;
+}
+#mechanicInfo h1{
+    background-color:white;
+    font-size: 1.6em;
+    height:3.5em;
+    width: 100%;
+    padding-top: 1em;
+    text-align: center;
+}
+#mechanicInfo input{
+    padding:5%;
+    width:100%;
+    background:#FFF;
+}
+#mechanicInfo select{
+    padding:5%;
+    width:100%;
+    
+}
+#mechanicInfo Button{
+    width: 100%;
+    background-color: #152036;
+    border: none;
+}
+#mechanicInfo .mechanichr{
+  height: 560px;
+    direction: vertical;
+    border: 0.4px groove rgb(248,246,246);
+}
+#mechanicInfo #searchUserName{
+    /* width: 50%; */
+    padding:3%;
+}
+#mechanicInfo thead{
+background-color: #eee;
+}
+#mechanicInfo select{
+    padding:5%;
+    width:100%;
+    background:#FFF;
+}
+#mechanicInfo .fa-trash-alt{
+    color: #3F51B5;
+    font-size: 1.6em;
+    cursor: pointer;
+}
+.mechanicInfodiv{
+    background-color: #eee;
+    height: 100%;
+}
+@media only screen and (max-Width : 1280px)
+{
+    .mechanicInfodiv{
+        width: 890px;
+    }
+}
+
+@media only screen and (max-Width : 990px)
+{
+    .mechanicInfodiv{
+        width: 520px;
+    }
+}
+@media only screen and (max-Width : 768px)
+{
+    .mechanicInfodiv{
+        width: 420px;
+        
+        margin-left: 2%;
+        
+    }
+}
+.mechaniSignUpfield-icon{
+    font-size: 1.2em;
+    padding-top: 20px;
+    margin-left: -10%;
+    position: absolute;
+    color: black;
+    cursor: pointer;
+}
+@media only screen and (max-width:480px){
+    .mechaniSignUpfield-icon{
+        font-size: 1.2em;
+        padding-top: 35px;
+        margin-left: -6%;
+        position: absolute;
+        color: black;
+        cursor: pointer;
+    }
+  }

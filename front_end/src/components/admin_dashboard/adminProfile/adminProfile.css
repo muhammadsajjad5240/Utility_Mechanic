@@ -1,0 +1,48 @@
+#adminProfiled{
+    background-color: #eee;
+}
+
+#adminProfile{
+    height:100%;
+}
+#adminProfile Button{
+    width: 30%;
+    background-color: #152036;
+    border: none;
+}
+#adminProfile .UserImage{
+    width: 40%;
+    height:12em;
+}
+
+.profilediv{
+    background-color: #eee;
+    height: 100%;
+}
+.infocol{
+    margin-left: -2%
+}
+@media only screen and (max-Width : 1280px)
+{
+    .infocol{
+         margin-left: 12% 
+    }
+}
+@media only screen and (max-Width : 500px)
+{
+    .infocol{
+         margin-left: 0% 
+    }
+}
+
+#SideProfileImg{
+    width: 100px;
+    border: 2px solid #3F51B5;
+    border-radius: 100%;
+    margin-left: 25%;
+    margin-top: -15%;
+    height:100px;
+}
+.listicon{
+    margin-top: 10px;
+}

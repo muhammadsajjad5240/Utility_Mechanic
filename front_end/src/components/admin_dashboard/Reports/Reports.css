@@ -1,0 +1,30 @@
+.report{
+    background-color:#eee;
+}
+.report .far,.fa-trash-alt{
+    font-size: 1.4em;
+    padding-left: 20%;
+    color: blue;
+}
+.report .fa-trash-alt{
+    margin-left: 10%;
+    
+}
+.report  h1{
+    background-color:white;
+    font-size: 1.6em;
+    height:3.5em;
+    width: 100%;
+    padding-top: 1em;
+    text-align: center;
+}
+.serviceCollapse{
+    color:#eee;
+    width: 100%;
+    font-size: 1.2em;
+    color: #152036;
+    text-align: left;
+}
+.collapseIcon{
+    float: right;
+}

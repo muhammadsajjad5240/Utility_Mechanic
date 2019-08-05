@@ -1,0 +1,88 @@
+#homeService .homeServiceContainer{
+    background-color:#eee;
+    opacity: 0.8;
+  }
+  #homeService .homeServiceContainer .row{
+    margin:2%;
+  }
+  #homeService .homeServiceContainer h1{
+    text-align: center;
+    color:#152036;
+  }
+  #homeService .homeServiceContainer h3{
+    color: #152036;
+    text-align:center;
+    font-size: 100%;
+  }
+  #homeService .homeServiceContainer h6{
+    color: #152036;
+    text-align:center;
+    font-size: 1em;
+  }
+  #homeService .homeServiceContainer .card {
+    width: 100%; 
+  }
+  #homeService .homeServiceContainer .card-img {
+    width: 100%;
+    height: 100%;
+    transition:all 0.3s ease-in-out;
+    opacity:1;
+  }
+  #homeService .homeServiceContainer .card:hover .card-img,
+  #homeService .homeServiceContainer .card:focus .card-img {
+    transform: scale(1.02);
+    opacity:0;
+  }
+  #homeService .homeServiceContainer .card:hover .card-img-overlay{
+      color:#730d0d;
+      width:100%;
+  }
+  #homeService .homeServiceContainer .card-img-overlay>h4, .card-img-overlay>p{
+      visibility:hidden;
+  }
+  #homeService .homeServiceContainer .card-img-overlay:hover h4, .card-img-overlay:hover p{
+      visibility: visible;
+  }
+  #homeService .homeServiceContainer .card:hover .card-img-overlay p{
+      font-size:1.5em;
+      letter-spacing:0.02em;
+  }
+  #homeService .homeServiceContainer .card Button{
+    background-color:#152036;
+    border: none;
+    width:60%;
+    margin: 20%;
+    align-content: center;
+  }
+  #homeService .homeServiceContainer .card .exploreBn{
+    margin-left: 100%;
+  }
+  @media only screen and (max-width: 868px)
+  {
+    #homeService .homeServiceContainer .card {
+      width: 100%;
+      height: 210px; 
+    }
+    #homeService .homeServiceContainer h3{
+      color: #152036;
+      text-align:center;
+      font-size: 80%;
+    }
+  }
+  hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}

@@ -1,0 +1,39 @@
+#ourMechanics{
+  background-color:#3a3f46;
+}
+#ourMechanics .owl-images{
+    height: 8em;
+    width: 70%;
+    border-radius: 100%;
+  }
+  #ourMechanics  .owl-text{
+  /* text-align: center; */
+  margin-left:15%;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  }
+  #ourMechanics .service-compnent-heading{
+    text-align: center;
+    font-size: 1.4em;
+    color: white;
+    font-weight: 700;
+  }
+  #ourMechanics  hr{
+    border: 1px solid #05164D;
+    width: 10em;
+  }
+  #ourMechanics .owl-carousel-back{
+    height: 570px;
+    background-color: #3a3f46;
+  }
+  #ourMechanics  .owl-theme{
+    padding-top: 100px;
+  }
+  @media (max-width:768px) and (min-width: 280px){
+    #ourMechanics .owl-images{
+      height: 8em;
+      width: 150%;
+      border-radius: 50%;
+    }
+  }
