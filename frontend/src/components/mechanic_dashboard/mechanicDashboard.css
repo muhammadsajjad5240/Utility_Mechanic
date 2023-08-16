@@ -1,0 +1,80 @@
+.mechanic-dashboard{
+    background-color:#eee;
+}
+.mechanic-dashboard .dashboard-topBar{
+    background-color: #152036;
+    color: white;
+    text-align: center;
+    width:101%;
+}
+.mechanic-dashboard .dashboard-topBar ul li{
+    display: inline;
+}
+.mechanic-dashboard .sideNavactionBtn{
+    float: left;
+    font-size:2em;
+    cursor: pointer;
+}
+.mechanic-dashboard .side-nav{
+    background-color: #152036 ;
+}
+.mechanic-dashboard .side-nav ul li{
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    display:block;
+    line-height: 2.5em;
+    font-size:1.4em;
+    }
+    .mechanic-dashboard .loggedUserImg{
+        padding-left: 40%;
+    }
+    .mechanic-dashboard .loggedUserName{
+        padding-left: 5%;
+    }
+    
+    .logOut{
+        padding-left: 3%;
+    }
+    .mechanic-dashboard .logedUserName{
+        margin-top: 1%;
+        /* margin-right: 20%;  */
+        float: right;
+    }
+.mechanic-dashboard .logOutUser{
+    font-size: 14px;
+    list-style-type: none;
+}
+
+.mechanic-dashboard-topBar .dropdown-menu{
+    background-color: #0e1a35;
+    color: white;
+    width: 10%;
+    z-index: 50;
+}
+.mechanic-dashboard .side-nav ul li:hover{
+    background-color: blueviolet;
+    /* width: 400px; */
+    color: white;
+}
+.mechanic-dashboard .side-nav a:hover{
+    text-decoration-line: none;
+}
+.dashboard .hideNavText{
+    display: inline-flex;
+}
+@media only screen and  (max-width: 1024px){                                                        
+    .mechanic-dashboard .hideNavText{
+        display: none;
+    }
+}
+.mechanic-dashboard .logdedUserImg{
+    float: right;
+    margin-top: 1%;
+    border-radius: 100%;
+    border: 1px solid yellow; 
+}
+.mechanic-dashboard .sideNavLogo{
+    width:150px;
+    height:50px;
+}

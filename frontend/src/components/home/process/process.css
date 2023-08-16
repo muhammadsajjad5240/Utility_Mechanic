@@ -1,0 +1,89 @@
+/* Below is css of process row where margin is defined */
+#process .processRow{
+  margin: 5%;
+  margin-left: 15%
+}
+/* Below is css of process main heading */
+#process .processHeading{
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+/* Below is style of process div where icons are placed */
+#process .processDiv{
+  border-radius: 100%;
+  width:40%;
+  background-color:#0087cc;
+}
+/* below is css of icons colord and their font-size */
+#process .processicon{
+  padding:20%;
+  color: white;
+  font-size:2.5em;
+}
+#process .fa-edit{
+  padding:20%;
+  color: white;
+  font-size:2.5em;
+}
+#mechanicArival{
+margin-right: 50%;
+}
+#process .fa-map-marker-check{
+  padding:20%;
+  color: white;
+  font-size:4em;
+}
+#process #quoteIcon{
+  padding:20%;
+  color: white;
+  font-size:2.5em;
+}
+/* Below is css of process text which will show below the icons */
+#process .processText{
+  font-size:1.2em;
+  padding:10%;
+  font-weight:bold;
+  text-align: left;
+}
+/* below we use media query to make icons more responsive */
+@media only screen and  (max-width: 768px)
+{
+  #process .processDiv{
+    width: 100px
+  }
+  #process .visit-icon,.fa-diagnoses,.fa-quote-left,.fa-tools,.fa-check,.fa-comments{
+    padding: 13%;
+  }
+  #process .processRow{
+    margin-left: 0%
+  }
+}
+@media (max-width:400px) and (min-width:0px){
+  #process .processDiv{
+    border-radius: 100%;
+    width:100%;
+    background-color:#0087cc;
+  }
+  #process .processText{
+    font-size:0.6em;
+    /* padding:10%; */
+    font-weight:bold;
+    text-align: left;
+  }
+  #process .processicon{
+    padding:20%;
+    color: white;
+    font-size:1.5em;
+  }
+  #process #quoteIcon{
+    padding:20%;
+    color: white;
+    font-size:1.5em;
+  }
+  #process .fa-edit{
+    padding:20%;
+    color: white;
+    font-size:1.5em;
+  }
+}

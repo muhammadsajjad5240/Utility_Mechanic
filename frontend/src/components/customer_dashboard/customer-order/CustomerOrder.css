@@ -1,0 +1,66 @@
+#customer-order{
+    background-color:#eee;
+    width: 100%;
+}
+#customer-order h2{
+    background-color: white;
+    text-align: center;
+}
+#customer-order Form{
+    padding: 5%;
+    border: 24px solid rgb(131, 130, 130);
+}
+#customer-order Form input,select{
+padding:2%;
+width: 100%;
+}
+#customer-order Form select{
+    background-color:white;
+    border:1px solid grey;
+}
+#customer-order .customer-order-btn{
+    background-color: #152036;
+    width: 100%;
+    border: none;
+    font-size:1.4em;
+}
+#customer-order thead{
+    background-color: #6c757d;
+    
+}
+#customer-order Table{
+    width: 100%;
+}
+#codetext{
+    width :150px;
+border: none;
+border-bottom: 1px solid #6c757d;
+}
+input:focus{
+    border: 1px solid grey;
+}
+@media only screen and (max-Width : 1280px)
+{
+    .coustomerorderdiv{
+        width: 890px;
+    }
+}
+
+@media only screen and (max-Width : 990px)
+{
+    .coustomerorderdiv{
+        width: 520px;
+    }
+}
+@media only screen and (max-Width : 768px)
+{
+    .coustomerorderdiv{
+        width: 420px;
+        
+        margin-left: 2%;
+        
+    }
+    #codetext{
+        width :60px;
+    }
+}

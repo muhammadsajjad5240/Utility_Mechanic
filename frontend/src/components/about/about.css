@@ -1,0 +1,33 @@
+#homeAbout img{
+height:100px;
+width: 100px;
+}
+#homeAbout h6{
+    text-align: justify;
+    font-size: 1em;
+    font-weight: bold;
+}
+#homeAbout p{
+    font-size: 1em;
+    text-align: justify;
+}
+#homeAbout h4{
+    font-weight:bold;
+    font-size:1.2em;
+    text-align: justify;
+}
+#homeAbout .aboutParagraph{
+    font-size: 1em;
+    text-align: justify;
+    text-align: justify;
+}
+#homeAbout h6,.mechnicDescription{
+    text-align: justify;
+    margin-left: -55%;
+}
+#homeAbout Button{
+    float: right;
+    width: 90px;
+    background-color: #152036;
+    border: none;
+}

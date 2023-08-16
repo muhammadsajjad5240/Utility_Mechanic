@@ -1,0 +1,52 @@
+{
+  "name": "fyp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.2.0",
+    "@material-ui/icons": "^4.2.1",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "install": "^0.12.2",
+    "jquery": "^3.4.0",
+    "mongoose": "^5.5.10",
+    "mui-datatables": "^2.6.3",
+    "nexmo": "^2.4.1",
+    "npm": "^6.10.2",
+    "query-string": "^6.8.1",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-dom": "^16.8.6",
+    "react-materialize": "^3.3.1",
+    "react-owl-carousel": "^2.3.1",
+    "react-parallax": "^2.2.0",
+    "react-redux": "^7.0.2",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-simple-chatbot": "^0.6.1",
+    "reactjs-popup": "^1.3.2",
+    "redux": "^4.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "dev": "run-p server start",
+    "start": "react-scripts start",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

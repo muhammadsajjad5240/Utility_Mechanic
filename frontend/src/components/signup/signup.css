@@ -1,0 +1,113 @@
+.signUp-style{
+    background-color:#eee;
+}
+.signUp-style h4{
+    color: white;
+    margin-left: 15%;
+    padding-top: 15%;
+    font-size: 3em;
+}
+#signUpComponent{
+    background-image: url('../../images/signUpBackground.png');
+}
+@media only screen and (max-width:768px)
+{
+    .signUp-style h4{
+     font-size: 1.6em;
+     padding-top: 40%;
+     
+    }
+    .signUp-style p{
+        color: white;
+        font-size: 1.1em;
+        margin-left: 15%;
+    }
+}
+@media only screen and (max-width:768px)
+{
+    .signUp-style .signUpForm{
+        border: none;
+    }
+
+}
+.signupbtn{
+    width: 100%;
+    background-color: #152036;
+    border: none;
+    margin-bottom: 0%;
+}
+.signupbtn:hover{
+    background-color: #152036;
+}
+#signUpclose{
+    width: 100%;
+    background-color: #152036;
+    border: none;
+    margin-top: 5px;
+}
+#signUpclose:hover{
+    background-color: #152036;
+
+}
+#signUpmessageclose{
+    width: 100%;
+    background-color: #152036;
+    border: none;
+    margin-top: 5px;
+}
+#signUpmessageclose:hover{
+    background-color: #152036;
+
+}
+@media only screen and (max-width:768px)
+{
+    .signUp-style .signupLists{
+
+         margin-left: -30px; 
+    }
+    
+}
+.field-icon {
+    font-size: 1.2em;
+    padding-top: 35px;
+    margin-left: -6%;
+    position: absolute;
+    color: black;
+    cursor: pointer;
+    
+  }
+  #signupform ::placeholder{
+      color: black;
+  }
+ #signupform input{
+      border: 1px solid grey;
+      /* padding: 1%; */
+      /* margin-top: 5%; */
+      width: 100%;
+      font-size: 1em;
+      border: none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      padding-top: 10%
+    
+  }
+  #signupform input:focus{
+
+    outline: none;
+  }
+  @media only screen and (max-width:480px){
+    #eyeIcon .field-icon {
+        float: right;
+        font-size: 1.2em;
+        margin-top: -180px;
+        padding-right: 25px;
+        color: grey;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+        
+      }
+  }
+  #signUpmessageModel{
+      display:none;
+  }

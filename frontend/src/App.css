@@ -1,0 +1,229 @@
+/* start of Style For topBar.js */
+.topbar{
+  width: 100%;
+  height: 60px;
+  background-color: darkorange;
+  font-size: 18px;
+}
+.topBar-contact{
+  text-align: right;
+  padding-top: 20px;
+  color: white;
+}
+.topBar-email{
+  padding-left: 10px;
+}
+.contact-icon{
+  padding-right: 6px;
+  font-size: 18px;
+}
+.phone-icon{
+  color: green;
+}
+.email-icon{
+  color: red;
+}
+.topText{
+  padding-top: 30px;
+  font-size: 24px;
+  color: blueviolet;
+  font-family: 'Dancing Script';
+  text-shadow: 3px 3px red;
+}
+@media only screen and (max-width: 768px){
+  .topBar-contact{
+  text-align: left;
+    
+  }
+  .topBar-email{
+    padding-left: 0px;
+    
+  }
+  .topText{
+    display: none;
+  }
+}
+.signUpForm{
+  width: 60%;
+  margin-left: 400px;
+}
+.formHeader{
+background-color:green;
+width:40%;
+height:150px;
+}
+
+.footer{
+  /* height: 200px; */
+  
+}
+.col-style{
+  
+  padding-left: 35px;
+  padding-top: 15px;
+  list-style-type: none;
+  font-size: 16px;
+}
+.rights-col{
+  line-height: 4px;
+}
+.red-content{
+  position: absolute;
+  padding-left: 45%;
+  padding-top: 340px;
+  
+}
+.red-content2{
+  position: absolute;
+  padding-left: 45%;
+  
+  padding-top: 400px;
+}
+.btn-lg{
+  width: 150px;
+}
+.carousel-item{
+  height: 500px;
+  
+}
+@media only screen and (max-width:768px){
+  .carousel-item{
+    height: 290px;
+    
+  }
+  .red-content{
+    position: absolute;
+    padding-left: 38%;
+    padding-top: 150px;
+    
+  }
+  .red-content2{
+    position: absolute;
+    padding-left: 38%;
+    
+    padding-top: 210px;
+  }
+}
+.vide-row{
+  height: 300%;
+}
+/* Start of nav style */
+nav ul li a {
+  color: #000;
+  font-size: 14px;
+  font-family: "Fjalla One";
+  font-weight: bold;
+}
+.navbar{
+ z-index: 10000;
+  height: 135px;
+  }
+
+.Navlogo{
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.navmenu{
+  margin-left: 550px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+ }
+.dropdown-menu{
+  z-index: -3;
+  width: 700px;
+  margin-right: -400px;
+}
+
+@media only screen and (max-width: 768px){
+  .navbar{
+    
+    height: 335px;
+  }
+  .navmenu{
+    margin-left: 0px;
+  }
+  .dropdown-menu{
+    
+    width: 200px;
+    margin-right: 0px;
+  }
+}
+
+/* end of navstyle */
+.new-marquee{
+  width: 100%;
+  padding: 10px 0;
+  background-color: lightblue;
+}
+.breakingNews{
+  color:red;
+  font-weight:900;
+}
+.workpara{
+  font-size:16px;
+  text-align: justify;
+}
+.service-col{
+  font-size: 15px;
+}
+.service-img{
+  width: 60px;
+  height: 60px;
+}
+.services{
+  background-color: cadetblue;
+}
+.card-img-top{
+  height: 150px;
+  
+}
+.card{
+  height: 350px;
+  overflow: hidden;
+}
+.overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+.card-deck{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* .card-img-top:hover{
+  background-color: blueviolet;
+  opacity: 0.5;
+} */
+
+#owl-demo .item{
+  background: #3fbf79;
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+.contact-dis{
+  padding-left: 10px;
+}
+.offices{
+  list-style-type: none;
+}

@@ -1,0 +1,41 @@
+.service-back{
+    height:400px;
+    width: 100%;
+}
+.construction-carousel{
+    height:300px;
+}
+.construction-heading{
+    font-size: 28px;
+    border-bottom: 2px solid #05164D;
+}
+.construction-detail li{
+    color: darkgray;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: justify;
+    list-style-type: circle;
+}
+.cons-order-btn{
+    float: right;
+    width: 4.4em;
+
+}
+.cons-img-gallary{
+    background-color: rgb(238, 238, 238);
+}
+.service-img-gallary{
+    width: 100%;
+    height: 180px; 
+    padding-top: 10px;
+    }
+.construction-gal-head{
+    font-size: 2.2em;
+    color: #05164D;
+    text-align: center;
+}
+@media only screen and(max-width: 360px){
+    .service-img-gallary{
+        padding-top: 100px;
+    }
+}
